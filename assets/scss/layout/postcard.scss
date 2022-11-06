@@ -20,16 +20,12 @@
     }
   
     .postcard-summary {
-      @include text-xs;
       color: var(--color-text-secondary);
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
       margin: .5rem 0;
     }
 
     .postcard-metadata {
-      @include text-xs;
+      @include text-sm;
       color: var(--color-text-secondary);
     }
   }
