@@ -7,7 +7,7 @@ $gray-250: #dddddd;
 $gray-300: #d4d4d4;
 $gray-350: #bcbcbc;
 $gray-400: #a3a3a3;
-$gray-450: #8b8b8b;
+$gray-450: #8b8b8b; // #b2b0b0
 $gray-500: #737373;
 $gray-550: #636363;
 $gray-600: #525252;
@@ -39,7 +39,7 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   --color-text: #{$gray-150};
-  --color-text-secondary: #{$gray-450};
+  --color-text-secondary: #{$gray-350};
   --color-text-footer: #{$gray-400};
   --color-border: #{$gray-500};
   --color-border-collapsible-menu: #{$gray-550};
