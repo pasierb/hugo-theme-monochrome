@@ -13,6 +13,16 @@
     <div class="content-margin">
         {{- partial "content.html" . -}}
     </div>
+
+    {{ if and .Params.showComments .Site.Params.utterances }}
+        <script src="https://utteranc.es/client.js"
+            repo="{{ .Site.Params.utterances.repo }}"
+            issue-term="{{ .Site.Params.utterances.issueTerm }}"
+            theme="{{ .Site.Params.utterances.theme }}"
+            crossorigin="anonymous"
+            async>
+        </script>
+    {{ end }}
 {{ end }}
 
 {{- end -}}
